@@ -1,7 +1,7 @@
 // push() menambahkan element array di akhir 
 const A = ['apple','banana']
 A.push('pineapple')
-console.log(A)//hasil [ 'apple', 'banana', 9, 8, 7 ]
+console.log(A)//hasil [ 'apple', 'banana', 'pineapple' ]
 
 // pop() menghapus element array di akhir 
 const a = ['apple','banana','pineapple']
@@ -57,5 +57,7 @@ bbc.forEach( bbc =>{console.log("saya suka "+bbc)})
 
 // map modify dalam array 
 const adc = [10000,20000,900000]
-const ddc = adc.map(num=>num * 0.9)
+const ddc = adc.map(num=>num * 0.9)//contoh diskon
 console.log(ddc)
+
+

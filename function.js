@@ -3,7 +3,7 @@
 //() dlm function bisa di bilang variable function yg bisa dipakai berulang kali
 function y(name){
    return "hello!, " + name + "!"
-}//return hasil dari function ,mengembalikan hasil dari function
+}//return hasil yg ingin dibuat dari function ,mengembalikan hasil dari function
 console.log(y("tamaki"))
 // hasil hello!, tamaki!
 
