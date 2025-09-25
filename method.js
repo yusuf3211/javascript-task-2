@@ -44,8 +44,18 @@ const dd = ['apple','banana','pineapple','cherry']
 dd.splice(1,2, 'grape','cucumber')
 console.log(dd)// hasil [ 'apple', 'grape', 'cucumber', 'cherry' ]
 
-// buat urutin angka dari 0 dan digit terkecil (a,b)=> a-b dan digit terkecil 
+// sort() buat urutin angka dari 0 dan digit terkecil (a,b)=> a-b dan digit terkecil 
 // sedangkan huruf urutin dari huruf depan di mulai dari A-Z (a, b) => b.localeCompare(a)
 const numba = [1,2,3,4,5]
 numba.sort((a,b)=> a-b)
 console.log(numba)//hasil [ 1, 2, 3, 4, 5 ]
+
+// foreach({()}) looping semua item untuk dikerjakan semua
+const bbc = ['apple','banana','pineapple']
+bbc.forEach( bbc =>{console.log("saya suka "+bbc)})
+//hasil saya suka apple ,saya suka banana ,saya suka pineapple
+
+// map modify dalam array 
+const adc = [10000,20000,900000]
+const ddc = adc.map(num=>num * 0.9)
+console.log(ddc)
